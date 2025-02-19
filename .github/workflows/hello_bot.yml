@@ -2,7 +2,7 @@ name: Telegram Hello Bot
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Runs every day at 6:00 AM UTC (which is 12:00 PM IST)
+    - cron: '30 7 * * *'  # Runs every day at 7:30 AM UTC (which is 1:00 PM IST)
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
